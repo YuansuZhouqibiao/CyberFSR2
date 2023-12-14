@@ -1,10 +1,8 @@
 name: MSBuild
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  watch:
+    types: [started]
 
 env:
   SOLUTION_FILE_PATH: CyberFSR.sln
