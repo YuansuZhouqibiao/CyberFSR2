@@ -4,6 +4,7 @@ on:
   watch:
     types: [started]
 
+  workflow_dispatch:
 env:
   SOLUTION_FILE_PATH: CyberFSR.sln
   BUILD_CONFIGURATION: Release
